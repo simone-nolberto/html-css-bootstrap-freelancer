@@ -32,6 +32,15 @@ nav{
     background-color: var(--freelance-jumbo);
 }
 
+/* end about */
 
 
+#footer_top{
+    background-color: var(--freelance-dark);
+}
+
+
+#footer_bottom{
+    background-color: var(--frelance-darker);
+}
 /* #endregion main */
