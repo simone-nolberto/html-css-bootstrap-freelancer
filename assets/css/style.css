@@ -15,5 +15,14 @@ nav{
     background-color: var(--frelance-darker);
 }
 
-
 /* #endregion header */
+
+/* #region main */
+
+.jumbotron{
+    min-height: 300px;
+    background-color: var(--freelance-jumbo);
+}
+
+
+/* #endregion main */
