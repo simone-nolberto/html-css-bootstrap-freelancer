@@ -13,26 +13,34 @@
 
 <body>
   <header>
-    <nav class="d-flex justify-content-between align-items-center p-2 heigth-100px">
-      <div class="text-white">START BOOTSTRAP</div>
-      <i class="fa-solid fa-bars border"></i>
+    <nav>
+      <div class="container d-flex justify-content-between align-items-center" id="nav_menu">
+        <div class="text-white">START BOOTSTRAP</div>
+        <i class="fa-solid fa-bars border"></i>
+      </div>
+
     </nav>
   </header>
   <main>
-    <div class="jumbotron d-flex justify-content-center flex-column">
-      <img src="./assets/img/avatar.svg" style="height: 250px;" class="align-items-center" alt="">
-      <h2 class="text-center text-white">START BOOTSTRAP</h2>
-      <div class="d-flex align-items-center justify-content-center gap-3 text-white"> 
-        <hr style="width: 200px; border: 4px solid white; border-radius: 5px;"><i class="fa-solid fa-star"></i><hr style="width: 200px; border: 4px solid white; border-radius: 5px;">
+    <div class="jumbotron py-3">
+      <div class="container d-flex justify-content-center flex-column jumbo_card">
+        <img src="./assets/img/avatar.svg" style="height: 250px;" class="align-items-center" alt="">
+        <h2 class="text-center text-white">START BOOTSTRAP</h2>
+        <div class="d-flex align-items-center justify-content-center gap-3 text-white decoration">
+          <hr>
+          <i class="fa-solid fa-star"></i>
+          <hr>
+        </div>
+        <p class="text-center text-white"><strong>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</strong></p>
       </div>
-      <p class="text-center text-white"><strong>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</strong></p>
-
     </div>
     <div id="portfolio">
       <div class="container">
         <h3 class="text-center mt-4">PORTFOLIO</h3>
-        <div class="d-flex align-items-center justify-content-center gap-3 text-black"> 
-          <hr style="width: 200px; border: 4px solid; border-radius: 5px;"><i class="fa-solid fa-star"></i><hr style="width: 200px; border: 4px solid; border-radius: 5px;">
+        <div class="d-flex align-items-center justify-content-center gap-3 text-black decoration">
+          <hr>
+          <i class="fa-solid fa-star"></i>
+          <hr>
         </div>
         <div class="row">
           <div class="col-12 col-lg-6 col-xl-4 mb-2">
@@ -70,19 +78,27 @@
 
     </div>
     <div id="about">
-      <div class="container">
-        <h3 class="text-center text-white mt-4">ABOUT</h3>
-        <div class="d-flex align-items-center justify-content-center gap-3 text-white"> 
-          <hr style="width: 200px; border: 4px solid white; border-radius: 5px;"><i class="fa-solid fa-star"></i><hr style="width: 200px; border: 4px solid white; border-radius: 5px;">
+      <div class="container py-4 d-flex flex-column">
+        <h3 class="text-center text-white">ABOUT</h3>
+        <div class="d-flex align-items-center justify-content-center gap-3 text-white">
+          <hr>
+          <i class="fa-solid fa-star"></i>
+          <hr>
         </div>
         <div class="row">
-          <div class="col-12 col-lg-6 mb-2" style="min-height: 150px;">
-            <div class="card h-100 w-75 m-auto">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, ipsum libero repellendus ab minus quisquam voluptatibus porro, earum sequi dolorem id aliquam dicta beatae a suscipit facere exercitationem nobis incidunt.
+          <div class="col-12 col-lg-6 mb-2">
+            <div class="card h-100 w-50 m-auto bg-transparent">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, ipsum libero repellendus ab minus
+              quisquam voluptatibus porro, earum sequi dolorem id aliquam dicta beatae a suscipit facere exercitationem
+              nobis incidunt.
             </div>
           </div>
-          <div class="col-12 col-lg-6 mb-2" style="min-height: 150px;">
-            <div class="card h-100 w-75 m-auto"></div>
+          <div class="col-12 col-lg-6 mb-2">
+            <div class="card h-100 w-50 m-auto bg-transparent">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error tempora architecto et excepturi debitis
+              placeat at id aperiam voluptates sequi, quia consequatur perferendis deleniti? Earum enim ipsam minus
+              sapiente harum?
+            </div>
           </div>
         </div>
         <a class="text-center" href="#"><i class="fa-solid fa-download"></i>Download</a>
@@ -91,8 +107,9 @@
     <div id="contact_me">
       <div class="container">
         <h3 class="text-center mt-4">CONTACT ME</h3>
-        <div class="d-flex align-items-center justify-content-center gap-3 text-white"> 
-          <hr style="width: 200px; border: 4px solid white; border-radius: 5px;"><i class="fa-solid fa-star"></i><hr style="width: 200px; border: 4px solid white; border-radius: 5px;">
+        <div class="d-flex align-items-center justify-content-center gap-3 text-white">
+          <hr style="width: 200px; border: 4px solid white; border-radius: 5px;"><i class="fa-solid fa-star"></i>
+          <hr style="width: 200px; border: 4px solid white; border-radius: 5px;">
         </div>
         <form class="d-flex flex-column mx-5" action="">
           <input class="border-bottom mb-2" placeholder="Name" type="text" name="" id="">
