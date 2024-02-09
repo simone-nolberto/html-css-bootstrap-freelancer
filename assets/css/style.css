@@ -49,7 +49,7 @@ nav {
     background-color: var(--freelance-jumbo);
 }
 
-.about a{
+.about a {
     color: white;
     border: 1px solid white;
     padding: 0.5rem 1rem;
@@ -58,7 +58,7 @@ nav {
 
 /* end about */
 
-.contact_me a{
+.contact_me a {
     background-color: var(--freelance-jumbo);
     border-radius: 0.75rem;
     width: fit-content;
@@ -68,16 +68,30 @@ nav {
 
 }
 
-
-
 /* end contact */
 
-#footer_top {
+.footer_top {
     background-color: var(--freelance-dark);
+
+    .card {
+        background-color: transparent;
+        color: white;
+        border: 0;
+        text-align: center;
+    }
+
+}
+
+.logo i{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 1rem;
 }
 
 
-#footer_bottom {
+
+
+.footer_bottom {
     background-color: var(--frelance-darker);
 }
 
