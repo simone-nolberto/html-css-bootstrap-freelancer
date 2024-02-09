@@ -56,11 +56,21 @@ nav {
     border-radius: 0.75rem;
 }
 
-
-
-
 /* end about */
 
+.contact_me a{
+    background-color: var(--freelance-jumbo);
+    border-radius: 0.75rem;
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    color: white;
+    text-decoration: none;
+
+}
+
+
+
+/* end contact */
 
 #footer_top {
     background-color: var(--freelance-dark);
