@@ -45,9 +45,19 @@ nav {
 
 /* end portfolio */
 
-#about {
+.about {
     background-color: var(--freelance-jumbo);
 }
+
+.about a{
+    color: white;
+    border: 1px solid white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.75rem;
+}
+
+
+
 
 /* end about */
 
